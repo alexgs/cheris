@@ -1,20 +1,25 @@
 {
-    "name": "@bit/alexgs.cheris.ninefox.card",
-    "version": "1.0.0",
-    "homepage": "https://bit.dev/alexgs/cheris/ninefox/card",
-    "main": "dist/Card.js",
-    "dependencies": {
-        "react": "16.7.x",
-        "styled-components": "4.1.x",
-        "styled-system": "3.2.x"
+  "name": "@bit/alexgs.cheris.ninefox.card",
+  "version": "1.0.1",
+  "homepage": "https://bit.dev/alexgs/cheris/ninefox/card",
+  "main": "dist/Card.js",
+  "dependencies": {
+    "react": "16.7.x",
+    "styled-components": "4.1.x",
+    "styled-system": "3.2.x"
+  },
+  "devDependencies": {},
+  "peerDependencies": {},
+  "componentRootFolder": "components/ninefox/card",
+  "license": "SEE LICENSE IN LICENSE",
+  "bit": {
+    "env": {
+      "compiler": "bit.envs/compilers/react-typescript@3.0.1"
     },
-    "devDependencies": {},
-    "peerDependencies": {},
-    "componentRootFolder": "components/ninefox/card",
-    "license": "SEE LICENSE IN LICENSE",
-    "bit": {
-        "env": {
-            "compiler": "bit.envs/compilers/react-typescript@3.0.1"
-        }
+    "overrides": {
+      "dependencies": {
+        "styled-components": "4.1.x"
+      }
     }
+  }
 }

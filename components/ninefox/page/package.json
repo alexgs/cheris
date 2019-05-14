@@ -1,26 +1,26 @@
 {
-    "name": "@bit/alexgs.cheris.ninefox.page",
-    "version": "1.0.3",
-    "homepage": "https://bit.dev/alexgs/cheris/ninefox/page",
-    "main": "dist/Page.js",
-    "dependencies": {
-        "react": "16.7.x",
-        "styled-system": "3.2.x",
-        "@rebass/components": "^4.0.0-1",
-        "styled-components": "4.1.x"
+  "name": "@bit/alexgs.cheris.ninefox.page",
+  "version": "1.0.4",
+  "homepage": "https://bit.dev/alexgs/cheris/ninefox/page",
+  "main": "dist/Page.js",
+  "dependencies": {
+    "react": "16.7.x",
+    "styled-system": "3.2.x",
+    "@rebass/components": "^4.0.0-1",
+    "styled-components": "4.1.x"
+  },
+  "devDependencies": {},
+  "peerDependencies": {},
+  "componentRootFolder": "components/ninefox/page",
+  "license": "SEE LICENSE IN LICENSE",
+  "bit": {
+    "env": {
+      "compiler": "bit.envs/compilers/react-typescript@3.0.1"
     },
-    "devDependencies": {},
-    "peerDependencies": {},
-    "componentRootFolder": "components/ninefox/page",
-    "license": "SEE LICENSE IN LICENSE",
-    "bit": {
-        "env": {
-            "compiler": "bit.envs/compilers/react-typescript@3.0.1"
-        },
-        "overrides": {
-            "dependencies": {
-                "styled-components": "4.1.x"
-            }
-        }
+    "overrides": {
+      "dependencies": {
+        "styled-components": "4.1.x"
+      }
     }
+  }
 }
