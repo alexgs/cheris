@@ -1,4 +1,4 @@
-# Cheris/Ninefox/Page
+# Cheris/Ninefox/Row
 
 [**Cheris**][1] is a component design system built with [**Styled Components**][1], [**Styled System**][2], and [**Rebass Components**][3].
 
@@ -9,4 +9,4 @@
 
 ## Using this Component
 
-`Page` is a top-level container for one or more `Row` components
+`Row` is a horizontal container for content. It can contain either `Card` or `Column` components. The children of a `Row` should be all of the same type, either `Card` or `Column`. The children should **not** mix types.

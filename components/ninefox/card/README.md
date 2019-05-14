@@ -1,4 +1,4 @@
-# Cheris/Ninefox/Page
+# Cheris/Ninefox/Card
 
 [**Cheris**][1] is a component design system built with [**Styled Components**][1], [**Styled System**][2], and [**Rebass Components**][3].
 
@@ -9,4 +9,4 @@
 
 ## Using this Component
 
-`Page` is a top-level container for one or more `Row` components
+`Card` is the fundamental container for content, such as text, images, etc.
