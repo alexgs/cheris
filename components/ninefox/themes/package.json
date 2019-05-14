@@ -1,0 +1,16 @@
+{
+    "name": "@bit/alexgs.cheris.ninefox.themes",
+    "version": "1.0.0",
+    "homepage": "https://bit.dev/alexgs/cheris/ninefox/themes",
+    "main": "dist/index.js",
+    "dependencies": {},
+    "devDependencies": {},
+    "peerDependencies": {},
+    "componentRootFolder": "components/ninefox/themes",
+    "license": "SEE LICENSE IN LICENSE",
+    "bit": {
+        "env": {
+            "compiler": "bit.envs/compilers/react-typescript@3.0.1"
+        }
+    }
+}

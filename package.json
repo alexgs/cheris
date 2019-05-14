@@ -1,0 +1,29 @@
+{
+  "name": "@philgs/cheris",
+  "version": "0.0.0",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/philgs/cheris.git"
+  },
+  "author": {
+    "name": "Alex Gates-Shannon",
+    "email": "alexnebula99@gmail.com"
+  },
+  "license": "BSD-3-Clause",
+  "homepage": "https://bit.dev/alexgs/cheris",
+  "scripts": {},
+  "dependencies": {
+    "@bit/alexgs.cheris.ninefox.button": "file:./components/ninefox/button",
+    "@bit/alexgs.cheris.ninefox.card": "file:./components/ninefox/card",
+    "@bit/alexgs.cheris.ninefox.nav": "file:./components/ninefox/nav",
+    "@bit/alexgs.cheris.ninefox.row": "file:./components/ninefox/row",
+    "@bit/alexgs.cheris.ninefox.themes": "file:./components/ninefox/themes",
+    "@bit/alexgs.cheris.ninefox.page": "file:./components/ninefox/page"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "trailingComma": "es5",
+    "jsxBracketSameLine": false
+  }
+}

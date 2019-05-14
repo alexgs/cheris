@@ -1,0 +1,20 @@
+{
+    "name": "@bit/alexgs.cheris.ninefox.row",
+    "version": "1.0.0",
+    "homepage": "https://bit.dev/alexgs/cheris/ninefox/row",
+    "main": "dist/Row.js",
+    "dependencies": {
+        "@rebass/components": "^4.0.0-1",
+        "react": "16.7.x",
+        "styled-system": "3.2.x"
+    },
+    "devDependencies": {},
+    "peerDependencies": {},
+    "componentRootFolder": "components/ninefox/row",
+    "license": "SEE LICENSE IN LICENSE",
+    "bit": {
+        "env": {
+            "compiler": "bit.envs/compilers/react-typescript@3.0.1"
+        }
+    }
+}
